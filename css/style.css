@@ -28,6 +28,13 @@ body {
 	font-smoothing: antialiased
 	*/
 
+/*내가 넣은 거*/
+.top_btn{
+	display: none;
+}
+
+
+
 a{color:#333;}
 
 h1,
@@ -101,8 +108,12 @@ p {
 	max-width: 100%;
 }
 
-.d_icon_2 li:hover{
-	opacity: 0;
+.d_icon li{
+	text-align: center;
+}
+
+.d_icon .bold{
+	color: #fff;
 }
 
 
@@ -637,7 +648,7 @@ body.push-side #ascrail2000-hr {
 	left: 0;
 	top: 0;
 	z-index: 99;
-	background-color: #fff;
+	background-color: #f9f5f2;
 }
 
 .main-sidebar .mb-warp {
@@ -683,7 +694,7 @@ body.push-side #ascrail2000-hr {
 }
 
 .profile img {
-	max-width: 75%;
+	max-width: 80%;
 }
 
 .about-info p{
@@ -857,7 +868,7 @@ Blog page
 .blog-page {
 	padding-right: 60px;
 	overflow: hidden;
-	background-color: #fff;
+	background-color: #f9f5f2;
 }
 
 .blog-posts {
@@ -1117,6 +1128,11 @@ Responsive
 	#ascrail2000-hr {
 		max-width: calc(100% - 550px);
 	}
+
+	/*내가 넣은 거*/
+	.top_btn{
+		display: none;
+	}
 }
 
 /* Medium screen : 992px. */
@@ -1212,7 +1228,7 @@ Responsive
 		padding: 60px 15px 50px;
 		text-align: center;
 		width: 100%;
-		background-color: #fff;
+		background-color: #f9f5f2;
 	}
 
 	.copyright p{
@@ -1226,6 +1242,30 @@ Responsive
 
 	.main-sidebar .mb-warp {
 		border-radius: 0px 130px 130px 0px;
+	}
+
+	/*top_btn 내가 만든 거*/
+	.top_btn{
+		position:fixed;
+		right:3%; bottom:1%;
+		display: block;
+	}
+	.top_btn li{
+		text-align:center;
+		margin-bottom:10px;
+	}
+	.top_btn li a{
+		font-family: 'jost';
+		display: block;
+		font-size: 20px;
+		font-weight: 600;
+		padding-top: 15px;
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
+		box-sizing: border-box;
+		color: #2685bf;
+		background-color: #ffe783;
 	}
 }
 
@@ -1276,11 +1316,12 @@ Responsive
 		width: 100%;
 		height: auto;
 	}
+	/*수정중인거!!*/
 	.main-sidebar .mb-warp {
-		padding: 15px 30px 10px 45px;
+		padding: 15px 30px 10px 30px;
 		margin: 0 auto;
-		margin-right: 10px;
-		border-radius: 0px 130px 130px 0px;
+		margin-right: 0px;
+		border-radius: 0px 0px 130px 0px;
 		/*max-width: 420px;*/
 	}
 	.hs-item {
@@ -1320,7 +1361,7 @@ Responsive
 		padding: 60px 15px 50px;
 		text-align: center;
 		width: 100%;
-		background-color: #fff;
+		background-color: #f9f5f2;
 	}
 
 	.copyright p{
@@ -1349,6 +1390,30 @@ Responsive
 		background: #242424;
 		margin: 0 5px;
 	}
+
+	/*top_btn 내가 만든 거*/
+	.top_btn{
+		position:fixed;
+		right:3%; bottom:1%;
+		display: block;
+	}
+	.top_btn li{
+		text-align:center;
+		margin-bottom:10px;
+	}
+	.top_btn li a{
+		font-family: 'jost';
+		display: block;
+		font-size: 20px;
+		font-weight: 600;
+		padding-top: 15px;
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
+		box-sizing: border-box;
+		color: #2685bf;
+		background-color: #ffe783;
+	}
 }
 
 /*추가*/
@@ -1359,6 +1424,32 @@ Responsive
 	.blog-metas .blog-meta {
 	display: block;	
 	}
+
+	/*top_btn 내가 만든 거*/
+	.top_btn{
+		position:fixed;
+		right:3%; bottom:1%;
+		display: block;
+	}
+	.top_btn li{
+		text-align:center;
+		margin-bottom:10px;
+	}
+	.top_btn li a{
+		font-family: 'jost';
+		display: block;
+		font-size: 20px;
+		font-weight: 600;
+		padding-top: 15px;
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
+		box-sizing: border-box;
+		color: #2685bf;
+		background-color: #ffe783;
+	}
+
+	
 }
 
 
@@ -1405,4 +1496,29 @@ Responsive
 	.menu-social a {
 		margin-right: 15px;
 	}
+
+    /*top_btn 내가 만든 거*/
+	.top_btn{
+		position:fixed;
+		right:3%; bottom:1%;
+		display: block;
+	}
+	.top_btn li{
+		text-align:center;
+		margin-bottom:10px;
+	}
+	.top_btn li a{
+		font-family: 'jost';
+		display: block;
+		font-size: 20px;
+		font-weight: 600;
+		padding-top: 15px;
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
+		box-sizing: border-box;
+		color: #2685bf;
+		background-color: #ffe783;
+	}
+
 }
