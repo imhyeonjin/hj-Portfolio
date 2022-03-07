@@ -669,7 +669,7 @@ body.push-side #ascrail2000-hr {
 */
 
 .mb-warp h1{
-	font-size: 50px;
+	font-size: 45px;
 }
 
 .about-info {
@@ -702,8 +702,8 @@ body.push-side #ascrail2000-hr {
 }
 
 .about-info .bold{
-	font-size:20px;
-	font-weight:600;
+	font-size:15px;
+	font-weight:500;
 	line-height: 2.5em;
 	font-family: 'jost';
 }
