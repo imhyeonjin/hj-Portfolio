@@ -106,6 +106,7 @@ ol {
 .icon img {
 	display: block;
 	max-width: 100%;
+	padding: 0 7px 10px 0px;
 }
 
 .d_icon li{
@@ -642,7 +643,7 @@ body.push-side #ascrail2000-hr {
 }
 
 .main-sidebar .mb-warp {
-	padding: 151px 60px 100px 100px;
+	padding: 151px 60px 3px 100px;
 }
 
 .mb-warp h2{
@@ -689,7 +690,7 @@ body.push-side #ascrail2000-hr {
 	left: 0;
 	bottom: 0;
 	background: #eeedeb;
-	padding-left: 145px;
+	padding-left: 100px;
 	padding-top: 20px;
 	border-top: 2px solid #62a96f;
 	border-right: 2px solid #62a96f;
@@ -1076,13 +1077,13 @@ Responsive
 		width: 450px;
 	}
 	.copyright {
-		padding-left: 30px;
+		padding-left: 20px;
 	}
 	.site-content-warp {
 		padding-left: 450px;
 	}
 	.main-sidebar .mb-warp {
-		padding: 110px 40px 91px 50px;
+		padding: 110px 40px 50px 50px;
 	}
 	.portfolio-item .pi-info {
 		padding: 15px 0 10px 0;
@@ -1109,7 +1110,11 @@ Responsive
 		width: 350px;
 	}
 	.copyright {
-		padding-left: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.copyright p{
+		font-size: 9px;
 	}
 	.site-logo h2 {
 		font-size: 40px;
@@ -1124,7 +1129,7 @@ Responsive
 		padding-left: 350px;
 	}
 	.main-sidebar .mb-warp {
-		padding: 110px 30px 91px 50px;
+		padding: 110px 30px 30px 50px;
 	}
 	.about-info h2 {
 		font-size: 36px;
@@ -1279,7 +1284,7 @@ Responsive
 		border-right: none;
 	}
 	.main-sidebar .mb-warp {
-		padding: 100px 30px 50px;
+		padding: 100px 30px 10px;
 		max-width: 420px;
 		margin: 0 auto;
 	}
