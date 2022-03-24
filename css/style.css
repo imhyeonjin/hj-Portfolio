@@ -19,23 +19,17 @@ body {
 	font-smoothing: 'Jost', sans-serif;
 	font-size:16px;
 	color:#333;
-	line-height: 1.5em;
+	line-height: 1.4em;
 }
-
-  /* 폰트 중복으로 사용하고 싶은데 어떻게 하지?
-  font-family: 'GoyangDeogyang';
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased
-	*/
 
 /*내가 넣은 거*/
 .top_btn{
 	display: none;
 }
+.blog-content p{text-align: left;}
 
 
-
-a{color:#333;}
+a{color:#000;}
 
 h1,
 h2,
@@ -44,29 +38,20 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #333;
+	color:#333;
 	font-weight: 700;
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 70px;
 	font-family: 'jost';
-	font-weight: 900;
-	color: #ffe783;
-	padding-bottom: 50px;
-}
-
-h1 img{
-	display: inline-block;
-	width: 15%;
-	margin-bottom: 10px;
 }
 
 h2 {
 	font-size: 36px;
-	padding-top: 5px;
 	font-family: 'jost';
-	font-weight: 600;
+    padding-top: 5px;
+    font-weight: 600;
 }
 
 h3 {
@@ -87,35 +72,17 @@ h6 {
 
 p {
 	font-size: 15px;
-	font-weight: 400;
 	color: #333;
-	line-height: 1.9em;
-	margin-bottom: 2rem;
-}
-/*
-.icon_wrap{
-	position: relative;
+	line-height: 1.7em;
 }
 
-.icon{
-	position: absolute;
-	top: 0;
-	left: 0;
+.p_bottom{
+	padding-bottom: 20px;
 }
-*/
-.icon img {
-	display: block;
+
+img {
 	max-width: 100%;
 }
-
-.d_icon li{
-	text-align: center;
-}
-
-.d_icon .bold{
-	color: #fff;
-}
-
 
 input:focus,
 select:focus,
@@ -134,6 +101,15 @@ ul,
 ol {
 	padding: 0;
 	margin: 0;
+}
+
+.icon img {
+	display: block;
+	max-width: 100%;
+}
+
+.d_icon li{
+	text-align: center;
 }
 
 /*---------------------
@@ -202,7 +178,7 @@ Commom elements
 	min-width: 167px;
 	padding: 19px 35px;
 	text-transform: uppercase;
-	color: #242424;
+	color: #333;
 	line-height: 1;
 	cursor: pointer;
 	text-align: center;
@@ -211,7 +187,7 @@ Commom elements
 }
 
 .site-btn:hover {
-	color: #242424;
+	color: #333;
 }
 
 .site-btn img {
@@ -309,7 +285,7 @@ Commom elements
 }
 
 .accordion-area .panel-header.active .panel-link.collapsed {
-	color: #242424;
+	color: #333;
 	background-color: transparent;
 	border-color: #e1e1e1;
 }
@@ -437,6 +413,7 @@ Commom elements
 	padding-bottom: 18px;
 	overflow: hidden;
 	font-size: 72px;
+	font-family: 'jost';
 	line-height: 1;
 	font-weight: 900;
 	position: relative;
@@ -600,23 +577,35 @@ body.push-side #ascrail2000-hr {
 }
 
 /* Header section */
-/*
+
 .header-section {
 	position: absolute;
 	width: 100%;
-	background-color: #fff;
 	top: 0;
 	left: 0;
 	overflow: hidden;
-	padding: 27px 45px;
+	padding: 20px 45px;
 	z-index: 999;
+	background: #62a96f;
 	-webkit-transform: translateX(0);
 	transform: translateX(0);
 	-webkit-transition: all 0.4s;
 	transition: all 0.4s;
 }
-.header-section h2{font-size:42px;}
-*/
+.h2_left{
+	float: left;
+	font-size:38px;
+}
+.h2_right{
+	float: right;
+	font-size: 36px;
+	padding-top: 10px;
+}
+.h2_right img{
+	width: 36px;
+	padding-bottom: 10px;
+}
+
 .nav-switch {
 	float: left;
 	font-size: 28px;
@@ -631,7 +620,7 @@ body.push-side #ascrail2000-hr {
 .site-content-warp {
 	position: relative;
 	height: 100%;
-	padding-top: 0px;
+	padding-top: 91px;
 	padding-left: 614px;
 	-webkit-transform: translateX(0);
 	transform: translateX(0);
@@ -648,28 +637,17 @@ body.push-side #ascrail2000-hr {
 	left: 0;
 	top: 0;
 	z-index: 99;
-	background-color: #f9f5f2;
+	background-color: #eeedeb;
+	border-right: 2px solid #62a96f;
 }
 
 .main-sidebar .mb-warp {
-	padding: 15px 75px 65px 85px;
-	background-color: #2685bf;
-	border-radius: 0px 130px 0px 0px;
-	box-shadow: 2px 0px 12px rgb(0 0 0 / 30%);
-	margin-right: 30px;
+	padding: 151px 60px 100px 100px;
 }
 
-/*
-.mb-deco{
-	background-color: #62a96f;
-	border-radius: 0px 130px 0px 0px;
-	box-shadow: 3px 1px 10px rgb(0 0 0 / 20%);
-	margin-right: 20px;
-}
-*/
-
-.mb-warp h1{
-	font-size: 45px;
+.mb-warp h2{
+	text-align:center;
+	padding-bottom:15px;	
 }
 
 .about-info {
@@ -677,64 +655,50 @@ body.push-side #ascrail2000-hr {
 }
 
 .about-info .greeting{
-	font-size:19px;
+	font-size:18px;
+	padding-bottom:15px;
 	line-height: 1.6em;
-	padding-bottom: 25px;
-}
-
-.greeting b{
-	background-color: #ffe783;
-	padding: 0px 4px;
-	margin-right: 3px;
-	color: #2685bf;
 }
 
 .about-info .profile {	
-	margin-bottom: 20px;
+	margin-bottom: 25px;
+	text-align:center;
 }
 
 .profile img {
 	max-width: 80%;
 }
 
-.about-info p{
-	color: #fff;
-}
-
 .about-info .bold{
-	font-size:15px;
-	font-weight:500;
-	line-height: 2.5em;
+	font-size:20px;
+	font-weight:600;
 	font-family: 'jost';
 }
 
-.about-info .icon_wrap{margin:-30px 0 0;}
-
-/*.d_icon{margin:-15px 0 0;}*/
+.about-info .d_icon{margin:-15px 0 0;}
 
 .about-info ul li{
 	display:inline-block;
 	padding:10px 0;}
 
 .copyright {
-	color: rgba(130, 130, 130, 0.3);
+	color: rgba(130, 130, 130, 0.29);
 	position: fixed;
 	height: 80px;
-	width: 559px;
+	width: 614px;
 	left: 0;
 	bottom: 0;
-	background: #2685bf;
-	padding-left: 85px;
+	background: #eeedeb;
+	padding-left: 145px;
 	padding-top: 20px;
+	border-top: 2px solid #62a96f;
+	border-right: 2px solid #62a96f;
 }
-.copyright p{
-	font-size: 10px;
-	margin:0;
-	color: rgba(255, 255, 255, 0.8);
-}
+.copyright p{font-size: 10px;
+	margin:0;}
 
 .copyright a {
-	color: rgba(255, 255, 255, 0.29);
+	color: rgba(130, 130, 130, 0.29);
 	text-decoration: underline;
 }
 
@@ -840,7 +804,7 @@ About Page
 }
 
 .milestone h2 {
-	font-family: "Playfair Display", serif;
+	font-family: 'jost';
 	font-weight: 900;
 	font-size: 72px;
 	float: left;
@@ -866,9 +830,8 @@ Blog page
  ---------------------*/
 
 .blog-page {
-	padding-right: 60px;
-	overflow: hidden;
-	background-color: #f9f5f2;
+	padding-right: 70px;
+	background-color: #eeedeb;
 }
 
 .blog-posts {
@@ -876,18 +839,17 @@ Blog page
 }
 
 .blog-post-item {
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 .blog-post-item:last-child {
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 .blog-thumb {
 	height: 566px;
-	border-radius: 20px;
-	/*margin-top: 20px;*/
-	margin-top: 70px;
+	border-top: 2px solid #62a96f;
+	border-right: 2px solid #62a96f;
 }
 
 .post-date {
@@ -907,25 +869,24 @@ Blog page
 
 
 .blog-content {
-	width: calc(100% - 138px);
-	background: rgba(255, 255, 255, 0.6);
-	padding: 55px 58px 40px;
-	margin-top: -133px;
-	margin-left: 62px;
-	border-radius: 50px;
+	/*width: calc(100% - 138px);*/
+	background: #eeedeb;
+	padding: 55px 58px;
+	margin-top: -145px;
+	border-bottom: 2px solid #62a96f;
+	border-right: 2px solid #62a96f;
+	/*margin-left: 62px;*/
 }
 .branding{
 	font-size: 13px;
 	font-weight: normal;
-	color: #2685bf;
+	color: #333;
 }
 .blog-content p{
 	font-size:15px;
-	/*
-	text-indent:18px;
-	padding-right:30px;
-	*/
+	/*text-indent:18px;*/
 	box-sizing:border-box;
+	line-height: 1.6em;
 	}
 .blog-metas {
 	padding-top: 15px;
@@ -935,15 +896,22 @@ Blog page
 .blog-metas .blog-meta {
 	display: inline-block;
 	position: relative;
-	font-size: 13px;
 	margin-right: 16px;
 	margin-bottom: 10px;
-	border:1px solid #aaa;
-	border-radius:20px;
 }
 .blog-meta a{
 	display:block;
-	padding:5px 20px;}
+	padding:5px 20px;
+
+	font-size: 13px;
+	border: 1px solid #62a96f;
+	border-radius:20px;
+}
+.blog-meta a:hover{
+	border: 1px solid #62a96f;
+	background-color: #62a96f;
+	color: #eeedeb;
+}
 
 .blog-comments {
 	padding-top: 60px;
@@ -993,7 +961,7 @@ Blog page
 
 .comments-list .comment-text a {
 	font-size: 13px;
-	color: #242424;
+	color: #333;
 	text-decoration: underline;
 }
 
@@ -1108,14 +1076,13 @@ Responsive
 		width: 450px;
 	}
 	.copyright {
-		width: 400px;
 		padding-left: 30px;
 	}
 	.site-content-warp {
 		padding-left: 450px;
 	}
 	.main-sidebar .mb-warp {
-		padding: 15px 40px 91px 50px;
+		padding: 110px 40px 91px 50px;
 	}
 	.portfolio-item .pi-info {
 		padding: 15px 0 10px 0;
@@ -1128,7 +1095,6 @@ Responsive
 	#ascrail2000-hr {
 		max-width: calc(100% - 550px);
 	}
-
 	/*내가 넣은 거*/
 	.top_btn{
 		display: none;
@@ -1138,12 +1104,12 @@ Responsive
 /* Medium screen : 992px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-	.main-sidebar{
+	.main-sidebar,
+	.copyright {
 		width: 350px;
 	}
 	.copyright {
 		padding-left: 30px;
-		width: 299px;
 	}
 	.site-logo h2 {
 		font-size: 40px;
@@ -1158,8 +1124,7 @@ Responsive
 		padding-left: 350px;
 	}
 	.main-sidebar .mb-warp {
-		padding: 15px 30px 15px 50px;
-		border-radius: 0px 150px 0px 0px;
+		padding: 110px 30px 91px 50px;
 	}
 	.about-info h2 {
 		font-size: 36px;
@@ -1188,7 +1153,7 @@ Responsive
 
 /* Tablet :768px. */
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 	.site-content-warp {
 		padding-left: 0;
 		height: auto;
@@ -1200,6 +1165,7 @@ Responsive
 		position: relative;
 		width: 100%;
 		height: auto;
+		border-right: none;
 	}
 	.video-section {
 		height: 400px;
@@ -1228,22 +1194,19 @@ Responsive
 		padding: 60px 15px 50px;
 		text-align: center;
 		width: 100%;
-		background-color: #f9f5f2;
+		border-right: none;
+		border-top: none;
 	}
-
-	.copyright p{
-		color: #555;
-	}
-
 	.nicescroll-rails.nicescroll-rails-hr,
 	#ascrail2000-hr {
 		max-width: calc(100% - 50px);
 	}
-
-	.main-sidebar .mb-warp {
-		border-radius: 0px 130px 130px 0px;
+	.blog-thumb, .blog-content{
+		border-left: 2px solid #62a96f;
 	}
 
+
+	
 	/*top_btn 내가 만든 거*/
 	.top_btn{
 		position:fixed;
@@ -1264,18 +1227,16 @@ Responsive
 		height: 60px;
 		border-radius: 30px;
 		box-sizing: border-box;
-		color: #2685bf;
-		background-color: #ffe783;
+		color: #eeedeb;
+		background-color: #62a96f;
 	}
+
+
 }
 
 /* Large Mobile :480px. */
 
-@media only screen and (max-width: 768px) {
-	.mb-warp h1{
-		font-size: 40px;
-	}
-
+@media only screen and (max-width: 767px) {
 	.site-content-warp {
 		padding-left: 0;
 		height: auto;
@@ -1315,14 +1276,12 @@ Responsive
 		position: relative;
 		width: 100%;
 		height: auto;
+		border-right: none;
 	}
-	/*수정중인거!!*/
 	.main-sidebar .mb-warp {
-		padding: 15px 30px 10px 30px;
+		padding: 100px 30px 50px;
+		max-width: 420px;
 		margin: 0 auto;
-		margin-right: 0px;
-		border-radius: 0px 0px 130px 0px;
-		/*max-width: 420px;*/
 	}
 	.hs-item {
 		width: 100%;
@@ -1361,21 +1320,19 @@ Responsive
 		padding: 60px 15px 50px;
 		text-align: center;
 		width: 100%;
-		background-color: #f9f5f2;
+		border-right: none;
+		border-top: none;
 	}
-
-	.copyright p{
-		color: #555;
-	}
-
 	.nicescroll-rails.nicescroll-rails-hr,
 	#ascrail2000-hr {
 		max-width: calc(100% - 50px);
 	}
+	/*
 	.blog-content {
 		width: calc(100% - 30px);
 		margin-left: 15px;
 	}
+	*/
 	.hero-track .owl-nav {
 		padding-top: 30px;
 		text-align: center;
@@ -1390,6 +1347,13 @@ Responsive
 		background: #242424;
 		margin: 0 5px;
 	}
+	.blog-thumb, .blog-content{
+		border-left: 2px solid #62a96f;
+	}
+	.blog-thumb{		
+		border-bottom: 2px solid #62a96f;
+	}
+
 
 	/*top_btn 내가 만든 거*/
 	.top_btn{
@@ -1411,9 +1375,12 @@ Responsive
 		height: 60px;
 		border-radius: 30px;
 		box-sizing: border-box;
-		color: #2685bf;
-		background-color: #ffe783;
+		color: #eeedeb;
+		background-color: #62a96f;
 	}
+	.blog-content p{font-size: 14px;}
+
+
 }
 
 /*추가*/
@@ -1424,6 +1391,20 @@ Responsive
 	.blog-metas .blog-meta {
 	display: block;	
 	}
+	.copyright{
+		border-right: none;
+		border-top: none;
+	}
+	.blog-thumb, .blog-content{
+		border-left: 2px solid #62a96f;
+	}
+	.blog-thumb{		
+		border-bottom: 2px solid #62a96f;
+	}
+	.main-sidebar{
+		border-right: none;
+	}
+
 
 	/*top_btn 내가 만든 거*/
 	.top_btn{
@@ -1445,11 +1426,10 @@ Responsive
 		height: 60px;
 		border-radius: 30px;
 		box-sizing: border-box;
-		color: #2685bf;
-		background-color: #ffe783;
+		color: #eeedeb;
+		background-color: #62a96f;
 	}
 
-	
 }
 
 
@@ -1477,9 +1457,11 @@ Responsive
 		font-size: 34px;
 	}
 	.blog-content {
+		/*
 		width: calc(100% - 10px);
 		margin-left: 5px;
-		padding: 40px 15px;
+		*/
+		padding: 40px 20px;
 		text-align:center;
 	}
 	.blog-metas .blog-meta {
@@ -1496,8 +1478,30 @@ Responsive
 	.menu-social a {
 		margin-right: 15px;
 	}
+	.copyright{
+		border-right: none;
+		border-top: none;
+	}
+	.blog-thumb, .blog-content{
+		border-left: 2px solid #62a96f;
+	}
+	.blog-thumb{		
+		border-bottom: 2px solid #62a96f;
+	}
+	.main-sidebar{
+		border-right: none;
+	}
 
-    /*top_btn 내가 만든 거*/
+
+	/*폰트사이즈 줄이는 거*/
+	p{
+		font-size: 14px;
+	}
+
+
+
+	
+	/*top_btn 내가 만든 거*/
 	.top_btn{
 		position:fixed;
 		right:3%; bottom:1%;
@@ -1517,8 +1521,8 @@ Responsive
 		height: 60px;
 		border-radius: 30px;
 		box-sizing: border-box;
-		color: #2685bf;
-		background-color: #ffe783;
+		color: #eeedeb;
+		background-color: #62a96f;
 	}
 
 }
