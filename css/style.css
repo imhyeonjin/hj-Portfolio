@@ -73,11 +73,11 @@ h6 {
 p {
 	font-size: 15px;
 	color: #333;
-	line-height: 1.7em;
+	line-height: 1.8em;
 }
 
 .p_bottom{
-	padding-bottom: 20px;
+	padding-bottom: 25px;
 }
 
 img {
@@ -657,8 +657,12 @@ body.push-side #ascrail2000-hr {
 
 .about-info .greeting{
 	font-size:18px;
-	padding-bottom:15px;
+	padding-bottom: 25px;
 	line-height: 1.6em;
+}
+.about-info .greeting>span{
+	font-size: 15px;
+	line-height: 1.5em;
 }
 
 .about-info .profile {	
@@ -672,7 +676,7 @@ body.push-side #ascrail2000-hr {
 
 .about-info .bold{
 	font-size:20px;
-	font-weight:600;
+	font-weight:500;
 	font-family: 'jost';
 }
 
