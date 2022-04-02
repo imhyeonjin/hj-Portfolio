@@ -28,6 +28,14 @@ body {
 }
 .blog-content p{text-align: left;}
 
+/*
+.kr_title{
+	font-family: 'Noto Sans KR';
+	font-weight: 600;
+	font-size: 30px;
+}
+*/
+
 
 a{color:#000;}
 
