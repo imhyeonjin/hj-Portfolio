@@ -81,11 +81,13 @@ h6 {
 p {
 	font-size: 15px;
 	color: #333;
-	line-height: 1.8em;
+	line-height: 2em;
 }
 
 .p_bottom{
-	padding-bottom: 25px;
+	padding-bottom: 28px;
+}
+.p_bottom br{
 }
 
 img {
