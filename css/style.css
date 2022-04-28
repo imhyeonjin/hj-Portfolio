@@ -677,7 +677,7 @@ body.push-side #ascrail2000-hr {
 
 .about-info .profile {	
 	margin-bottom: 25px;
-	text-align:center;
+	/*text-align:center;*/
 }
 
 .profile img {
@@ -1250,6 +1250,10 @@ Responsive
 		background-color: #62a96f;
 	}
 
+	.about-info .profile {	
+		text-align:center;
+	}
+
 
 }
 
@@ -1399,6 +1403,10 @@ Responsive
 	}
 	.blog-content p{font-size: 14px;}
 
+	.about-info .profile {	
+		text-align:center;
+	}
+
 
 }
 
@@ -1447,6 +1455,10 @@ Responsive
 		box-sizing: border-box;
 		color: #eeedeb;
 		background-color: #62a96f;
+	}
+
+	.about-info .profile {	
+		text-align:center;
 	}
 
 }
@@ -1517,8 +1529,6 @@ Responsive
 		font-size: 14px;
 	}
 
-
-
 	
 	/*top_btn 내가 만든 거*/
 	.top_btn{
@@ -1542,6 +1552,10 @@ Responsive
 		box-sizing: border-box;
 		color: #eeedeb;
 		background-color: #62a96f;
+	}
+
+	.about-info .profile {	
+		text-align:center;
 	}
 
 }
